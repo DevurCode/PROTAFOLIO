@@ -1,16 +1,18 @@
 ---
+import { Image } from "astro:assets";
+import imagenperfil from "../../public/imagen-perfil.png";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="DenuDev - Portafolio">
-    <section>
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
         <div>
             <h1>Diego Andre Araca Alvarez</h1>
             <h4>aracaalvarezd@gmail.com</h4>
             <p>Desarrollador de Software especializado en la parte FontEnd.</p>
         </div>
         <div>
-            <img src="/imagen-perfil.webp" alt="">
+            <Image src={imagenperfil} alt="Diego Andre Araca Alvarez" />
         </div>
     </section>
 </Layout>
