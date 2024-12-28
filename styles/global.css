@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-primary: #080808;
+    --color-secondary: #101010;
+    --color-tertiary: #292929;
+    --color-quaternary: #545454;
+    --color-quinary: #a9a9a9;
+    --color-light: #d4d4d4;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
