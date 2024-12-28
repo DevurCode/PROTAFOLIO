@@ -14,7 +14,10 @@ export default {
         },
         fontFamily: {
             spaceGrotesk: ['Space Grotesk', 'sans-serif'],
-        }
+        },
+        backgroundImage: {
+            astroGradient: 'linear-gradient(135deg, #FF5D01, #FFD600, #FF2A00)',
+        },
     },
     plugins: [],
 }
