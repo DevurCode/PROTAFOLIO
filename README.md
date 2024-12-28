@@ -1,48 +1,35 @@
-# Astro Starter Kit: Basics
+# Portafolio Personal DevurCode🌟
 
-```sh
-npm create astro@latest -- --template basics
-```
+¡Hola! me llamo Diego, un apasionado desarrollador web con experiencia en la creación de sitios modernos, rápidos y optimizados. Este portafolio refleja mi dedicación y amor por el diseño y desarrollo web.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Sobre el Proyecto  
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este portafolio está construido con [Astro](https://astro.build/), una herramienta increíble que permite crear páginas estáticas rápidas y eficientes. También utilicé [TailwindCSS](https://tailwindcss.com/) para darle un diseño limpio y profesional. Combinar estas tecnologías me permite ofrecer experiencias web únicas y adaptadas a cualquier dispositivo.  
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Mi Experiencia  
 
-## 🚀 Project Structure
+Durante mi trayectoria como desarrollador web, he trabajado en proyectos que abarcan desde páginas personales hasta corporativas. Me gusta enfocarme en:  
 
-Inside of your Astro project, you'll see the following folders and files:
+- Crear interfaces atractivas y fáciles de usar.  
+- Optimizar el rendimiento para garantizar que las páginas carguen rápido.  
+- Ofrecer soluciones personalizadas según las necesidades de cada cliente o usuario.  
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Astro ha sido una herramienta que he aprendido a amar, gracias a su flexibilidad y su enfoque en el rendimiento. Si bien disfruto trabajar con diversas tecnologías, siempre busco aquellas que ofrezcan los mejores resultados.  
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Mis Valores  
 
-## 🧞 Commands
+1. **Simplicidad**: Mantener las cosas claras y directas.  
+2. **Calidad**: Cada detalle cuenta; siempre busco dar lo mejor en cada proyecto.  
+3. **Colaboración**: Me encanta trabajar con otros para lograr objetivos comunes.  
 
-All commands are run from the root of the project, from a terminal:
+## ¿Qué Puedes Encontrar Aquí?  
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+En este portafolio, encontrarás:  
 
-## 👀 Want to learn more?
+- **Proyectos**: Algunos de los trabajos más representativos que he realizado.  
+- **Sobre mí**: Una breve descripción de quién soy y mi enfoque en el desarrollo web.  
+- **Contacto**: Una forma sencilla para que podamos conectar y colaborar.  
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+
+Espero que disfrutes explorando mi portafolio tanto como yo disfruté creándolo. ¡Gracias por visitar! 😊  
