@@ -1,62 +1,13 @@
 ---
-import SectionPresentacion from "../components/SectionPresentacion.astro";
 import Layout from "../layouts/Layout.astro";
 
-import Javascript from "../assets/icons/Javascript.astro";
-import Html from "../assets/icons/Html.astro";
-import Css from "../assets/icons/Css.astro";
-import GitHub from "../assets/icons/GitHub.astro";
-import Git from "../assets/icons/Git.astro";
-import Tailwind from "../assets/icons/Tailwind.astro";
-import Netlify from "../assets/icons/Netlify.astro";
-import Typescript from "../assets/icons/Typescript.astro";
-import Docker from "../assets/icons/Docker.astro";
-import VisualStudio from "../assets/icons/VisualStudio.astro";
-import AstroIcon from "../assets/icons/AstroIcon.astro";
+import SectionPresentacion from "../components/SectionPresentacion.astro";
+import Tecnologias from "../components/Tecnologias.astro";
+import Experiencias from "../components/Experiencias.astro";
 ---
 
 <Layout title="DenuDev - Portafolio">
     <SectionPresentacion />
-    <section class="p-5 flex flex-col gap-5">
-        <h3 class="text-xs underline underline-offset-4">
-            Tecnologias que uso &rarr;
-        </h3>
-        <div>
-            <ul class="flex flex-wrap justify-center gap-3">
-                <li class="bg-[#e34c26] p-2 rounded-md">
-                    <Html />
-                </li>
-                <li class="bg-[#2a4dcd] p-2 rounded-md">
-                    <Css />
-                </li>
-                <li class="bg-[#f0db4f] p-2 rounded-md">
-                    <Javascript />
-                </li>
-                <li class="bg-[#1d202d] p-2 rounded-md">
-                    <GitHub />
-                </li>
-                <li class="bg-[#f34f29] p-2 rounded-md">
-                    <Git />
-                </li>
-                <li class="bg-[#3490dc] p-2 rounded-md">
-                    <Tailwind />
-                </li>
-                <li class="bg-[#3490dc] p-2 rounded-md">
-                    <Netlify />
-                </li>
-                <li class="bg-[#007acc] p-2 rounded-md">
-                    <Typescript />
-                </li>
-                <li class="bg-[#0db7ed] p-2 rounded-md">
-                    <Docker />
-                </li>
-                <li class="bg-[#0078d7] p-2 rounded-md">
-                    <VisualStudio />
-                </li>
-                <li class="bg-astroGradient p-2 rounded-md">
-                    <AstroIcon />
-                </li>
-            </ul>
-        </div>
-    </section>
+    <Tecnologias />
+    <Experiencias />
 </Layout>

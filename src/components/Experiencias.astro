@@ -1,0 +1,74 @@
+---
+import { Image } from "astro:assets";
+import Java from "../assets/icons/Java.astro";
+import Thymeleaf from "../assets/icons/Thymeleaf.astro";
+import SpringBoot from "../assets/icons/SpringBoot.astro";
+import Docker from "../assets/icons/Docker.astro";
+
+import imgexp1 from "../../public/img-exp-1.png";
+import Eye from "../assets/icons/Eye.astro";
+---
+
+<section class="p-5 flex flex-col gap-5">
+    <h3 class="text-xs underline underline-offset-4 font-spaceGrotesk">
+        Experiencias recientes &rarr;
+    </h3>
+    <div>
+        <section class="flex flex-col rounded-lg bg-per-tertiary">
+            <div class="group relative overflow-hidden rounded-t-lg">
+                <Image
+                    src={imgexp1}
+                    alt="Imagen del gestor de Inventario dentro de la empresa La Brujas Store"
+                    class="transition-all duration-300 group-hover:blur-sm"
+                />
+                <a
+                    href="#"
+                    target="_blank"
+                    class="absolute top-0 text-transparent w-full h-full flex justify-center items-center left-0 hover:text-white hover:bg-[#000000a0] transition ease"
+                >
+                    <Eye />
+                </a>
+            </div>
+
+            <div class="font-spaceGrotesk p-2">
+                <h4 class="text-xs text-">La Brujas Store</h4>
+                <h3 class="text-lg leading-[1.2]">GESTOR DE INNVENTARIO</h3>
+                <h6 class="text-[10px] font-light leading-[1.2]">
+                    <em>Desarrollador Front-End</em>
+                </h6>
+                <p class="text-xs my-2 font-light">
+                    Proyecto realizado para la gestión de inventario de los
+                    productos, realizado con el patrón de diseño
+                    Modelo-Vista-Controlador.
+                </p>
+
+                <ul class="flex gap-2 mt-2">
+                    <li>
+                        <a
+                            href="#"
+                            class="group bg-white p-[6px] rounded-md text-black w-12 flex justify-center"
+                        >
+                            <span
+                                class="opacity-0 absolute top-[-40px] bg-[#171717] text-xs text-center text-white p-2 w-[95px] rounded-md z-10 group-hover:opacity-100 transition-all duration-300"
+                                >Ver proyecto</span
+                            >
+                            <Eye width="17px" height="17px" />
+                        </a>
+                    </li>
+                    <li class="bg-[#F44336] p-[6px] rounded-md">
+                        <Java width="17px" height="17px" />
+                    </li>
+                    <li class="bg-[#6db33f] p-[6px] rounded-md">
+                        <Thymeleaf width="17px" height="17px" />
+                    </li>
+                    <li class="bg-[#335e17] p-[6px] rounded-md">
+                        <SpringBoot width="17px" height="17px" />
+                    </li>
+                    <li class="bg-[#0db7ed] p-[6px] rounded-md">
+                        <Docker width="17px" height="17px" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</section>
