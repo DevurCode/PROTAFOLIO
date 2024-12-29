@@ -5,29 +5,37 @@ import GitHub from "../assets/icons/GitHub.astro";
 import imagenperfil from "../../public/img-perfil.jpg";
 ---
 
-<section class="h-dvh max-h-[800px] flex justify-center items-center p-5 relative">
+<section
+    class="h-dvh max-h-[800px] flex justify-center items-center p-5 relative"
+>
     <div
-        class="flex gap-5 flex-col sticky top-0 left-0 h-auto"
+        class="flex gap-5 flex-col sticky top-0 left-0 h-auto lg:flex-row lg:gap-8"
     >
         <div class="flex justify-center">
             <Image
                 src={imagenperfil}
                 alt="Foto de Diego Andre Araca Alvarez"
-                class="w-8/12 rounded-full mt-5"
+                class="w-8/12 rounded-full mt-5 max-w-64 lg:max-w-[25rem] lg:mt-0 lg:w-full lg:aspect-[1/1] lg:h-auto"
             />
         </div>
-        <div class="flex flex-col items-center text-center">
-            <h1 class="font-spaceGrotesk text-3xl">
+        <div
+            class="flex flex-col items-center text-center lg:gap-3 lg:text-start lg:items-start lg:justify-center"
+        >
+            <h1
+                class="font-spaceGrotesk text-3xl sm:text-4xl lg:text-6xl lg:w-[500px]"
+            >
                 DIEGO ANDRE ARACA ALVAREZ
             </h1>
             <a
                 href="mailto:aracaalvarez@gmail.com"
                 target="_blank"
-                class="font-spaceGrotesk text-sm text-per-quaternary hover:text-white transition duration-300 ease-in-out mb-1"
+                class="font-spaceGrotesk text-sm sm:text-lg lg:text-2xl text-per-quaternary hover:text-white transition duration-300 ease-in-out mb-1 animate-pulse hover:animate-wiggle"
             >
-                <h4 class="">aracaalvarezd@gmail.com</h4>
+                <h4 class="lg:text-start">aracaalvarezd@gmail.com</h4>
             </a>
-            <p class="text-xs text-per-quinary font-spaceGrotesk">
+            <p
+                class="text-xs sm:text-base lg:text-xl text-per-quinary font-spaceGrotesk max-w-[625px]"
+            >
                 Desarrollador de Software especializado en el desarrollo
                 Front-End. Me apasiona crear interfaces interactivas y
                 funcionales.Siempre en busca de mejorar mis habilidades y
@@ -43,13 +51,18 @@ import imagenperfil from "../../public/img-perfil.jpg";
                             width={30}
                             height={30}
                             fill="white"
-                            className="hover:text-blue-500"
+                            className="hover:text-blue-500 sm:w-10 sm:h-10"
                         />
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/DevurCode" target="_blank">
-                        <GitHub width={30} height={30} fill="white" />
+                        <GitHub
+                            width={30}
+                            height={30}
+                            fill="white"
+                            className="sm:w-10 sm:h-10"
+                        />
                     </a>
                 </li>
             </ul>
