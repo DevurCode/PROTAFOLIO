@@ -19,7 +19,7 @@ import Eye from "../assets/icons/Eye.astro";
                 <Image
                     src={imgexp1}
                     alt="Imagen del gestor de Inventario dentro de la empresa La Brujas Store"
-                    class="transition-all duration-300 group-hover:blur-sm"
+                    class="transition-all duration-300 group-hover:blur-sm w-full"
                 />
                 <a
                     href="#"
@@ -32,7 +32,9 @@ import Eye from "../assets/icons/Eye.astro";
 
             <div class="font-spaceGrotesk p-2">
                 <h4 class="text-xs text-">La Brujas Store</h4>
-                <h3 class="text-lg leading-[1.2]">GESTOR DE INNVENTARIO</h3>
+                <a href="#" target="_blan" >
+                    <h3 class="text-lg leading-[1.2]">GESTOR DE INNVENTARIO</h3>
+                </a>
                 <h6 class="text-[10px] font-light leading-[1.2]">
                     <em>Desarrollador Front-End</em>
                 </h6>
@@ -43,17 +45,17 @@ import Eye from "../assets/icons/Eye.astro";
                 </p>
 
                 <ul class="flex gap-2 mt-2">
-                    <li>
+                    <li class="group flex justify-center">
                         <a
                             href="#"
-                            class="group bg-white p-[6px] rounded-md text-black w-12 flex justify-center"
+                            class="peer bg-white p-[6px] rounded-md text-black w-12 flex justify-center animate-pulse group-hover:animate-wiggle"
                         >
-                            <span
-                                class="opacity-0 absolute top-[-40px] bg-[#171717] text-xs text-center text-white p-2 w-[95px] rounded-md z-10 group-hover:opacity-100 transition-all duration-300"
-                                >Ver proyecto</span
-                            >
                             <Eye width="17px" height="17px" />
                         </a>
+                        <span
+                            class="opacity-0 absolute top-[-42px] bg-[#171717] text-xs text-center text-white p-2 w-[95px] rounded-md z-10 peer-hover:opacity-100 transition-all duration-300"
+                            >Ver proyecto</span
+                        >
                     </li>
                     <li class="bg-[#F44336] p-[6px] rounded-md">
                         <Java width="17px" height="17px" />
@@ -72,3 +74,22 @@ import Eye from "../assets/icons/Eye.astro";
         </section>
     </div>
 </section>
+
+<style>
+    .asdasd {
+        animation: change-color 1s infinite;
+    }
+    @keyframes change-color {
+        0% {
+            background: red;
+        } /* Primer fotograma clave */
+        50% {
+            /* Segundo fotograma clave */
+            background: yellow;
+            width: 400px;
+        }
+        100% {
+            background: green;
+        } /* Último fotograma clave */
+    }
+</style>

@@ -2,51 +2,57 @@
 import { Image } from "astro:assets";
 import LinkedinSquare from "../assets/icons/LinkedinSquare.astro";
 import GitHub from "../assets/icons/GitHub.astro";
-import imagenperfil from "../../public/imagen-perfil.png";
+import imagenperfil from "../../public/img-perfil.jpg";
 ---
 
-<section class="flex gap-5 flex-col items-center justify-center h-dvh p-5">
-    <div class="flex justify-center">
-        <Image
-            src={imagenperfil}
-            alt="Foto de Diego Andre Araca Alvarez"
-            class="w-2/4 rounded-full"
-        />
-    </div>
-    <div class="flex flex-col items-center text-center">
-        <h1 class="font-spaceGrotesk text-3xl">DIEGO ANDRE ARACA ALVAREZ</h1>
-        <a
-            href="mailto:aracaalvarez@gmail.com"
-            target="_blank"
-            class="font-spaceGrotesk text-sm text-per-quaternary hover:text-white transition duration-300 ease-in-out mb-1"
-        >
-            <h4 class="">aracaalvarezd@gmail.com</h4>
-        </a>
-        <p class="text-xs text-per-quinary font-spaceGrotesk">
-            Desarrollador de Software especializado en el desarrollo Front-End.
-            Me apasiona crear interfaces interactivas y funcionales.Siempre en
-            busca de mejorar mis habilidades y mantenerme actualizado con las
-            últimas tecnologías.
-        </p>
-        <ul class="flex gap-3 mt-2">
-            <li>
-                <a
-                    href="https://www.linkedin.com/in/diego-andre-araca-alvarez-0830a1240"
-                    target="_blank"
-                >
-                    <LinkedinSquare
-                        width={30}
-                        height={30}
-                        fill="black"
-                        className="hover:text-blue-500"
-                    />
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/DevurCode" target="_blank">
-                    <GitHub width={30} height={30} fill="white" />
-                </a>
-            </li>
-        </ul>
+<section class="h-dvh max-h-[800px] flex justify-center items-center p-5 relative">
+    <div
+        class="flex gap-5 flex-col sticky top-0 left-0 h-auto"
+    >
+        <div class="flex justify-center">
+            <Image
+                src={imagenperfil}
+                alt="Foto de Diego Andre Araca Alvarez"
+                class="w-8/12 rounded-full mt-5"
+            />
+        </div>
+        <div class="flex flex-col items-center text-center">
+            <h1 class="font-spaceGrotesk text-3xl">
+                DIEGO ANDRE ARACA ALVAREZ
+            </h1>
+            <a
+                href="mailto:aracaalvarez@gmail.com"
+                target="_blank"
+                class="font-spaceGrotesk text-sm text-per-quaternary hover:text-white transition duration-300 ease-in-out mb-1"
+            >
+                <h4 class="">aracaalvarezd@gmail.com</h4>
+            </a>
+            <p class="text-xs text-per-quinary font-spaceGrotesk">
+                Desarrollador de Software especializado en el desarrollo
+                Front-End. Me apasiona crear interfaces interactivas y
+                funcionales.Siempre en busca de mejorar mis habilidades y
+                mantenerme actualizado con las últimas tecnologías.
+            </p>
+            <ul class="flex gap-3 mt-2">
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/diego-andre-araca-alvarez-0830a1240"
+                        target="_blank"
+                    >
+                        <LinkedinSquare
+                            width={30}
+                            height={30}
+                            fill="white"
+                            className="hover:text-blue-500"
+                        />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/DevurCode" target="_blank">
+                        <GitHub width={30} height={30} fill="white" />
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </section>
